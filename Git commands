@@ -1,3 +1,6 @@
+Origin is the place from where we cloned the repository
+Main is the current branch we are working on
+
 Remote: code that is on github
 Local: code that is on PC
 
