@@ -1,3 +1,7 @@
+Remote: code that is on github
+Local: code that is on PC
+
+
 Throw away local un pushed commits:
 git reset --hard origin/master
 
