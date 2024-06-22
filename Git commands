@@ -1,0 +1,15 @@
+Throw away local un pushed commits:
+git reset --hard origin/master
+
+List all commits between head and origin/master:
+git log origin/master..HEAD
+
+To view the diff between commits from head to origin/master:
+git diff origin/master..HEAD
+
+Stop git from resolving merge conflict automatically on the basis os previous resolutions:
+git config --global rerere.enabled false
+Remove global if you need to do only for current repo
+
+git config --global user.name "rohitalawadhi"
+git config --global user.email "rohit@gmail.com"
