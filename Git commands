@@ -4,6 +4,14 @@ Main is the current branch we are working on
 Remote: code that is on github
 Local: code that is on PC
 
+Rename current branch: git branch -m <new name>
+
+push:
+git push <remote> <branch>
+
+to set upstream for once, so that no need to do git push <remote> <branch>
+git push -u <remote> <branch>
+then later on we can push just by doing git push, which is similaer to above command
 
 Throw away local un pushed commits:
 git reset --hard origin/master
@@ -17,6 +25,19 @@ git diff origin/master..HEAD
 Stop git from resolving merge conflict automatically on the basis os previous resolutions:
 git config --global rerere.enabled false
 Remove global if you need to do only for current repo
+
+Add remote branch name:
+git remote add origin <link>
+eg: git remote origin https://github.com/rohitalawadhi/GitCommands.git
+
+
+List the remote branch name:
+git remote -v
+o/p: 
+origin	https://github.com/rohitalawadhi/GitCommands.git (fetch)
+origin	https://github.com/rohitalawadhi/GitCommands.git (push)
+
+
 
 git config --global user.name "rohitalawadhi"
 git config --global user.email "rohit@gmail.com"
