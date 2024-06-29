@@ -13,6 +13,12 @@ to set upstream for once, so that no need to do git push <remote> <branch>
 git push -u <remote> <branch>
 then later on we can push just by doing git push, which is similaer to above command
 
+to checkout a new branch :
+git checkout -b <new branch>
+
+delete a branch:
+git branch -d <branch name>
+
 Throw away local un pushed commits:
 git reset --hard origin/master
 
