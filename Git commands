@@ -38,7 +38,14 @@ eg: git remote origin https://github.com/rohitalawadhi/GitCommands.git
 
 Diff:
 git diff  <branch name> (can be used for commit, branch , files and more)
+
+Merge(2 ways)
+1:
 git merge <branch name> (merge 2 branches, inclear yet)
+
+2:
+Create a PR(pull request)
+
 
 List the remote branch name:
 git remote -v
