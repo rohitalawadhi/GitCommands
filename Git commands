@@ -36,6 +36,9 @@ Add remote branch name:
 git remote add origin <link>
 eg: git remote origin https://github.com/rohitalawadhi/GitCommands.git
 
+Diff:
+git diff  <branch name> (can be used for commit, branch , files and more)
+git merge <branch name> (merge 2 branches, inclear yet)
 
 List the remote branch name:
 git remote -v
