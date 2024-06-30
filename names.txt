@@ -1,1 +1,8 @@
-rohit
+stash
+prune 
+stage 
+fetch 
+merge
+tags
+log
+gitk
