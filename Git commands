@@ -41,7 +41,7 @@ git diff  <branch name> (can be used for commit, branch , files and more)
 
 Merge(2 ways)
 1:
-git merge <branch name> (merge 2 branches, inclear yet)
+git merge <branch name 2> (if you are on branch 1, merge 2 branches, unclear yet)
 
 2:
 Create a PR(pull request)
