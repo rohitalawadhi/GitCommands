@@ -1,4 +1,4 @@
-stash
+stash - main
 prune 
 stage 
 fetch 
