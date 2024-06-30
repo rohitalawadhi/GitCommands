@@ -1,6 +1,8 @@
 Origin is the place from where we cloned the repository
 Main is the current branch we are working on
 
+Fork is a process to clone a repo locally in your profile of git through UI
+
 Remote: code that is on github
 Local: code that is on PC
 
