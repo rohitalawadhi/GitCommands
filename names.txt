@@ -1,4 +1,4 @@
-stash - rohit
+stash - main
 prune 
 stage 
 fetch 
