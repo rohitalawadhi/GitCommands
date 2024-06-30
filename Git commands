@@ -6,6 +6,16 @@ Local: code that is on PC
 
 Rename current branch: git branch -m <new name>
 
+Undoing changes:
+if you have added them but not committed:
+git reset <file name>
+git reset (for all files)
+
+for committed changes:
+git reset HEAD~1 // for one commit
+git reset <commit hash> // if the changes to be removed are from specific commit
+git reset --hard <commit hash> // remove changes from local repo
+
 push:
 git push <remote> <branch>
 
